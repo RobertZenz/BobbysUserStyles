@@ -1,0 +1,89 @@
+/*
+ * Public Domain or Creative Commons Zero.
+ */
+
+@namespace url(http://www.w3.org/1999/xhtml);
+
+@-moz-document domain("github.com") {
+  .unsupported-browser {
+    display: none !important;
+    visibility: hidden !important;
+  }
+  
+  .timeline-comment-header-text {
+    padding-bottom: 1px;
+    padding-top: 1px;
+  }
+  
+  .timeline-comment-label {
+    border: none;
+    margin: 0;
+  }
+  
+  .timeline-comment-action {
+    padding: 0 0.5em;
+  }
+  
+  .timeline-comment-wrapper,
+  .discussion-item {
+    margin-bottom: 0.5em;
+    margin-top: 0.5em;
+  }
+  
+  .timeline-comment-wrapper > .timeline-comment::before,
+  .timeline-comment-wrapper > .timeline-comment::after {
+    top: 4px;
+  }
+  
+  .comment-body {
+    padding: 0.5em;
+  }
+  
+  .markdown-body > p {
+    margin-bottom: 1.0em;
+  }
+  
+  .markdown-body > pre,
+  .markdown-body .highlight pre, .markdown-body pre {
+    padding: 0.5em;
+  }
+  
+  .comment-reactions-options > button {
+    padding: 0.25em;
+  }
+  
+  button.reaction-summary-item[value="THUMBS_UP react"] {
+    color: #4e9a06;
+  }
+  
+  button.reaction-summary-item[value="THUMBS_DOWN react"] {
+    color: #a40000;
+  }
+  
+  button.reaction-summary-item[value="CONFUSED react"],
+  button.reaction-summary-item[value="HEART react"],
+  button.reaction-summary-item[value="HOORAY react"],
+  button.reaction-summary-item[value="LAUGH react"] {
+    display: none;
+    visibility: hidden;
+  }
+  
+  .emoji {
+    display: none;
+    visibility: hidden;
+  }
+  
+  .reaction-popover-container {
+    display: none;
+    visibility: hidden;
+  }
+  
+  .comment-form-head {
+    display: none;
+    visibility: hidden;
+  }
+  
+  .write-content {
+    margin-top: 8px !important;;
+  }
+}
