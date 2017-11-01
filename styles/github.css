@@ -35,7 +35,9 @@
   }
   
   .timeline-comment-wrapper > .timeline-comment::before,
-  .timeline-comment-wrapper > .timeline-comment::after {
+  .timeline-comment-wrapper > .timeline-comment::after,
+  .timeline-comment-wrapper > .timeline-comment.current-user::before,
+  .timeline-comment-wrapper > .timeline-comment.current-user::after {
     top: 4px;
   }
   
