@@ -92,4 +92,14 @@
   .write-content {
     margin-top: 8px !important;;
   }
+  
+  .blob-num,
+  .blob-code {
+    line-height: 1.1em;
+  }
+  
+  .add-line-comment {
+    font-size: 12pt;
+    height: 1.1em;
+  }
 }
