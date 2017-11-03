@@ -10,6 +10,51 @@
     visibility: hidden !important;
   }
   
+  .tabnav {
+    margin-bottom: 0px !important;
+  }
+  
+  .py-3 {
+    padding-bottom: 6px !important;
+    padding-top: 6px !important;
+  }
+  
+  .py-3 > a {
+    padding-top: 8px;
+  }
+  
+  .pagehead {
+    margin-bottom: 0.66em;
+    padding-top: 0.66em;
+  }
+  
+  .repohead-details-container {
+    margin-bottom: 0.33em !important;
+  }
+  
+  .reponav-item {
+    padding: 0.33em 0.66em;
+  }
+  
+  .numbers-summary > li > a,
+  .repository-lang-stats-numbers > li {
+    padding-bottom: 0.33em;
+    padding-top: 0.33em;
+  }
+  
+  .stats-switcher-viewport {
+    height: 30px;
+  }
+  
+  .commit-tease {
+    padding: 0.33em 0.66em;
+  }
+  
+  .repository-topics-container {
+    display: none;
+    visibility: hidden;
+  }
+  
   .timeline-comment-header {
     height: 1.8em;
   }
