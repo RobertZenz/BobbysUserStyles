@@ -9,108 +9,124 @@
     display: none !important;
     visibility: hidden !important;
   }
-  
+
+  .d-table > div {
+    padding: 1px 3px!important;
+  }
+
+  .d-table > div > div {
+    margin-top: 0px !important;
+    margin-bottom: 2px !important;
+  }
+
   .tabnav {
     margin-bottom: 0px !important;
   }
-  
+
   .py-3 {
     padding-bottom: 6px !important;
     padding-top: 6px !important;
   }
-  
+
   .py-3 > a {
     padding-top: 8px;
   }
-  
+
   .pagehead {
     margin-bottom: 0.66em;
     padding-top: 0.66em;
   }
-  
+
   .repohead-details-container {
     margin-bottom: 0.33em !important;
   }
-  
+
   .reponav-item {
     padding: 0.33em 0.66em;
   }
-  
+
   .numbers-summary > li > a,
   .repository-lang-stats-numbers > li {
     padding-bottom: 0.33em;
     padding-top: 0.33em;
   }
-  
+
   .stats-switcher-viewport {
     height: 30px;
   }
-  
+
   .commit-tease {
     padding: 0.33em 0.66em;
   }
-  
+
   .repository-topics-container {
     display: none;
     visibility: hidden;
   }
-  
+
   .timeline-comment-header {
     height: 1.8em;
   }
-  
+
   .timeline-comment-header-text {
     padding-bottom: 1px;
     padding-top: 1px;
   }
-  
+
   .timeline-comment-label {
     border: none;
     margin: 0;
+    margin-top: 1px;
   }
-  
+
   .timeline-comment-action {
     padding: 0 0.5em;
   }
-  
+
   .timeline-comment-wrapper,
   .discussion-item {
     margin-bottom: 0.5em;
     margin-top: 0.5em;
   }
-  
+
   .timeline-comment-wrapper > .timeline-comment::before,
   .timeline-comment-wrapper > .timeline-comment::after,
   .timeline-comment-wrapper > .timeline-comment.current-user::before,
   .timeline-comment-wrapper > .timeline-comment.current-user::after {
     top: 4px;
   }
-  
+
+  .js-reaction-popover-container {
+    display: none !important;
+    visibility: hidden !important;
+  }
+
   .comment-body {
     padding: 0.5em;
   }
-  
+
   .markdown-body > p {
     margin-bottom: 1.0em;
   }
-  
+
   .markdown-body > pre,
   .markdown-body .highlight pre, .markdown-body pre {
     padding: 0.5em;
   }
-  
+
   .comment-reactions-options > button {
-    padding: 0.25em;
+    padding: 0.0em 0.25em;
+    font-size: 8pt;
   }
-  
+
   button.reaction-summary-item[value="THUMBS_UP react"] {
     color: #4e9a06;
   }
-  
+
   button.reaction-summary-item[value="THUMBS_DOWN react"] {
     color: #a40000;
   }
-  
+
   button.reaction-summary-item[value="CONFUSED react"],
   button.reaction-summary-item[value="HEART react"],
   button.reaction-summary-item[value="HOORAY react"],
@@ -118,31 +134,31 @@
     display: none;
     visibility: hidden;
   }
-  
+
   .emoji {
     display: none;
     visibility: hidden;
   }
-  
+
   .reaction-popover-container {
     display: none;
     visibility: hidden;
   }
-  
+
   .comment-form-head {
     display: none;
     visibility: hidden;
   }
-  
+
   .write-content {
     margin-top: 8px !important;;
   }
-  
+
   .blob-num,
   .blob-code {
     line-height: 1.1em;
   }
-  
+
   .add-line-comment {
     font-size: 12pt;
     height: 1.1em;
